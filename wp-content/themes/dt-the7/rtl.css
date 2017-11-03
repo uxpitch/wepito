@@ -1,0 +1,83 @@
+/*
+Theme Name: presscore
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+/*
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+*/
+.dt-mobile-header {transform: translate3d(100%, 0, 0);}
+
+
+
+@font-face {
+	font-family: IRANSans2;
+	font-style: normal;
+	font-weight: bold;
+	src: url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/eot/IRANSansWeb_Bold.eot');
+	src: url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+	url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/woff2/IRANSansWeb_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+	url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/woff/IRANSansWeb_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans2;
+	font-style: normal;
+	font-weight: 500;
+	src: url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/seot/IRANSansWeb_Medium.eot');
+	src: url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+	url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/woff2/IRANSansWeb_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+	url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/woff/IRANSansWeb_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans2;
+	font-style: normal;
+	font-weight: 300;
+	src: url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/eot/IRANSansWeb_Light.eot');
+	src: url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+	url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/woff2/IRANSansWeb_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+	url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/woff/IRANSansWeb_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/ttf/IRANSansWeb_Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans2;
+	font-style: normal;
+	font-weight: 200;
+	src: url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/eot/IRANSansWeb_UltraLight.eot');
+	src: url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/eot/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+	url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/woff2/IRANSansWeb_UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+	url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/woff/IRANSansWeb_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/ttf/IRANSansWeb_UltraLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans2;
+	font-style: normal;
+	font-weight: normal;
+	src: url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/eot/IRANSansWeb.eot');
+	src: url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+	url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+	url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	url('http://localhost/wordpress/wp-content/themes/dt-the7/fonts/iransans/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+
+p,a,span,div,label,h1,h2,h3,h4,h5,li,ul,i,em,b{  font-family: "IRANSans",IRANSans2, Helvetica, Arial, Verdana, sans-serif !important;}
+
+
+
+
+/* custom css*/
+
+.main-nav > li > a .menu-text{
+	margin: 0 10px;}
+.masthead:not(.side-header):not(.mixed-header) .header-bar, .header-space{min-height:60px}

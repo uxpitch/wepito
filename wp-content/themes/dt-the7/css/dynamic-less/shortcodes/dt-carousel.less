@@ -1,0 +1,152 @@
+ /* #Shortcode carousel
+================================================== */
+//Arrows
+//@unique-shortcode-class-name: owl-carousel;
+//Arrow Icons
+// @icon-size: 12px;
+// @icon-padding-top: 5px;
+// @icon-padding-right: 5px;
+// @icon-padding-bottom: 5px;
+// @icon-padding-left: 5px;
+// @icon-color: red;
+// @icon-color-hover: blue;
+// @arrow-width: 30px;
+// @arrow-height: 30px;
+// @arrow-border-radius: 30px;
+// @arrow-border-color: red;
+//@arrow-border-color-hover: black;
+// @arrow-border-width: 1px;
+// @arrow-bg: yellow;
+//@arrow-bg-hover: green;
+
+// @arrow-r-margin-top: 10px;
+// @arrow-r-margin-right: 10px;
+// @arrow-r-margin-bottom: 10px;
+// @arrow-r-margin-left: 10px;
+
+// @arrow-l-margin-top: 10px;
+// @arrow-l-margin-right: 10px;
+// @arrow-l-margin-bottom: 10px;
+// @arrow-l-margin-left: 10px;
+
+// @bullet-size: 6px;
+// @bullet-color: red;
+// @bullet-color-hover: red;
+// @bullet-gap:10px;
+// @bullets-margin-top: 10px;
+// @bullets-margin-right: 10px;
+// @bullets-margin-bottom: 0;
+// @bullets-margin-left: 10px;
+
+//@bullets-v-position: 'bottom';
+//@bullets-h-position: 'center';
+
+.bullets-position-horizontal(@position) when (@position = left) {
+    left: 0;
+}
+.bullets-position-horizontal(@position) when (@position = center) {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.bullets-position-horizontal(@position) when (@position = right) {
+    right: 0;
+}
+.bullets-position-vertical(@position) when (@position = top) {
+    top: 0;
+}
+.bullets-position-vertical(@position) when (@position = center) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.bullets-position-vertical(@position) when (@position = bottom) {
+    bottom: 0;
+}
+.nav-v-position(@position) when (@position = top) {
+    top: 0;
+}
+.nav-v-position(@position) when (@position = center) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.nav-v-position(@position) when (@position = bottom) {
+    bottom: 0;
+}
+.nav-h-position(@position) when (@position = left) {
+    left: 0;
+}
+.nav-h-position(@position) when (@position = center) {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.nav-h-position(@position) when (@position = right) {
+    right: 0;
+}
+//@arrow-right-v-position: 'center';
+//@arrow-left-v-position: 'center';
+//@arrow-right-h-position: 'left';
+//@arrow-left-h-position: 'right';
+// .arrow-v-position(@position) when (@position = 'top') {
+//     top: 0;
+// }
+// .arrow-v-position(@position) when (@position = 'center') {
+//     bottom: 0;
+// }
+// .arrow-v-position(@position) when (@position = 'bottom') {
+//     bottom: 0;
+// }
+.owl-nav {
+	.@{unique-shortcode-class-name} & {
+		& a {
+			width: @arrow-width;
+			height: @arrow-width;
+			border: @arrow-border-width solid @arrow-border-color;
+			border-radius: @arrow-border-radius;
+			background: @arrow-bg;
+			&:hover {
+				border-color: @arrow-border-color-hover;
+				background: @arrow-bg-hover;
+			}
+			&.owl-prev {
+				.nav-v-position(@arrow-left-v-position);
+				.nav-h-position(@arrow-left-h-position);
+			}
+			&.owl-next {
+				.nav-v-position(@arrow-right-v-position);
+				.nav-h-position(@arrow-right-h-position);
+			}
+		}
+		& .fa {
+			padding: @icon-padding-top @icon-padding-right @icon-padding-bottom @icon-padding-left;
+			font-size: @icon-size;
+			color: @icon-color;
+		}
+		& a:hover .fa {
+			color: @icon-color-hover;	
+		}
+		& .owl-next {
+			margin: @arrow-r-margin-top @arrow-r-margin-right @arrow-r-margin-bottom @arrow-r-margin-left;
+		}
+		& .owl-prev {
+			margin: @arrow-l-margin-top @arrow-l-margin-right @arrow-l-margin-bottom @arrow-l-margin-left;
+		}
+	}
+}
+.owl-dots {
+	.@{unique-shortcode-class-name} & {
+		margin: @bullets-margin-top @bullets-margin-right @bullets-margin-bottom @bullets-margin-left;
+		//.bullets-position(@bullets-v-position);
+		.bullets-position-vertical(@bullets-v-position);
+		.bullets-position-horizontal(@bullets-h-position);
+	}
+}
+.owl-dot {
+	.@{unique-shortcode-class-name} & {
+		width: @bullet-size;
+		height: @bullet-size;
+		margin: 0 @bullet-gap/2;
+		background: @bullet-color;
+		&:hover {
+			background: @bullet-color-hover;
+		}
+	}
+}
