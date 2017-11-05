@@ -210,19 +210,23 @@ if ( ! function_exists( 'presscore_get_categorizer_sorting_fields' ) ) :
 		$order = strtolower( $config->get('order') );
 
 		$html =	'<div class="filter-extras">'
-			.'<div class="filter-by"' . ( $show_orderby ? '' : $display_none ) . '>'
+			.'<div class="filter-by" ' . ( $show_orderby ? '' : $display_none ) . '>'
 				. '<a href="' . esc_url( add_query_arg( array( 'orderby' => 'date', 'order' => $order ), $link ) ) . '" class="sort-by-date' . ('date' == $orderby ? $act : '') . '" data-by="date"><i class="fa fa-calendar" aria-hidden="true"></i><span class="filter-popup">' . __( 'Sort by date', 'the7mk2' ) . '</span></a>'
 				. '<span class="filter-switch"></span>'
 				. '<a href="' . esc_url( add_query_arg( array( 'orderby' => 'name', 'order' => $order ), $link ) ) . '" class="sort-by-name' . ('name' == $orderby ? $act : '') . '" data-by="name"><i class="fa fa-font" aria-hidden="true"></i><span class="filter-popup">' . __( 'Sort by name', 'the7mk2' ) . '</span></a>'
 			. '</div>'
 
-			. '<div class="filter-sorting"' . ( $show_order ? '' : $display_none ) . '>'
+
+		. '</div>';
+//		$html ='';//akram
+
+		/*
+		 * . '<div class="filter-sorting"' . ( $show_order ? '' : $display_none ) . ' >'
 				. '<a href="' . esc_url( add_query_arg( array( 'orderby' => $orderby, 'order' => 'DESC' ), $link ) ) . '" class="sort-by-desc' . ('desc' == $order ? $act : '') . '" data-sort="desc"><i class="fa fa-sort-amount-desc" aria-hidden="true"></i><span class="filter-popup">' . __( 'Descending', 'the7mk2' ) . '</span></a>'
 				. '<span class="filter-switch"></span>'
 				. '<a href="' . esc_url( add_query_arg( array( 'orderby' => $orderby, 'order' => 'ASC' ), $link ) ) . '" class="sort-by-asc' . ('asc' == $order ? $act : '') . '" data-sort="asc"><i class="fa fa-sort-amount-asc" aria-hidden="true"></i><span class="filter-popup">' . __( 'Ascending', 'the7mk2' ) . '</span></a>'
 			. '</div>'
-		. '</div>';
-		$html ='';//akram
+		 * */
 
 		return $html;
 	}
@@ -236,6 +240,7 @@ if ( ! function_exists( 'presscore_get_category_list' ) ) :
 	 * Categorizer.
 	 */
 	function presscore_get_category_list( $args = array() ) {
+
 		global $post;
 
 		$defaults = array(
@@ -256,6 +261,8 @@ if ( ! function_exists( 'presscore_get_category_list' ) ) :
 			'after'				=> '</div>',
 			'act_class'			=> 'act',
 		);
+
+
 		$args = wp_parse_args( $args, $defaults );
 		$args = apply_filters( 'presscore_get_category_list-args', $args );
 
@@ -263,6 +270,8 @@ if ( ! function_exists( 'presscore_get_category_list' ) ) :
 
 		$args['hash'] = str_replace( array( '%PAGE%' ), array( $args['page'] ), $args['hash'] );
 		$output = $all = '';
+
+
 
 		if ( isset($data['terms']) &&
 		     ! is_wp_error( $data['terms'] ) &&
@@ -276,6 +285,8 @@ if ( ! function_exists( 'presscore_get_category_list' ) ) :
 			$replace_list = array( '%HREF%', '%CLASS%', '%TERM_DESC%', '%TERM_NICENAME%', '%TERM_SLUG%', '%TERM_ID%', '%COUNT%', '%CATEGORY_ID%' );
 
 			$terms_done = array();
+
+
 			foreach( $data['terms'] as $term ) {
 
 				// Prevent duplication.
@@ -316,6 +327,7 @@ if ( ! function_exists( 'presscore_get_category_list' ) ) :
 			}
 
 			// all button
+
 			if ( $args['all_btn'] ) {
 				$all_class = array();
 
@@ -338,8 +350,8 @@ if ( ! function_exists( 'presscore_get_category_list' ) ) :
 					array(
 						esc_url( str_replace( array( '%TERM_ID%' ), array( '' ), $args['hash'] ) ),
 						$all_class,
-						__( 'All posts', 'the7mk2' ),
-						__( 'View all', 'the7mk2' ),
+						__( 'همه مطالب', 'the7mk2' ),
+						__( 'نمایش همه', 'the7mk2' ),
 						'',
 						'',
 						$data['all_count'],
@@ -462,7 +474,6 @@ if ( ! function_exists( 'presscore_get_posts_small_list' ) ) :
 			if ( empty($data['title']) ) {
 				$data['title'] = __( 'No title', 'the7mk2');
 			}
-
 			if ( !empty( $data['parent_id'] ) ) {
 				$class = 'post-' . presscore_get_post_format_class( get_post_format( $data['parent_id'] ) );
 
