@@ -327,6 +327,7 @@ class Wppr_Public {
 	 * @return string The comment form fields.
 	 */
 	function add_comment_fields() {
+
 		if ( ! $this->review->is_active() ) {
 			return '';
 		}
@@ -401,7 +402,7 @@ class Wppr_Public {
 	 * @return string Comment text with review.
 	 */
 	public function show_comment_ratings( $text ) {
-
+		var_dump('finally yeaaaah1');
 		if ( empty( $this->review ) ) {
 			return $text;
 		}
@@ -421,7 +422,7 @@ class Wppr_Public {
 		$return = '';
 		$return .= '<div class="user-comments-grades">';
 		foreach ( $options as $k => $option ) {
-			$return .= '<div class="comment-meta-option">
+			$return .= '<div class="comment-meta-option">yeaaaah1
                             <p class="comment-meta-option-name">' . $option['name'] . '</p>
                             <p class="comment-meta-option-grade">' . $option['value'] . '</p>
                             <div class="cwpr_clearfix"></div>

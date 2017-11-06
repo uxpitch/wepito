@@ -29,9 +29,25 @@ if ( $review_object->get_click() == 'image' ) {
 $pros = $review_object->get_pros();
 $cons = $review_object->get_cons();
 
+
 ?>
 <div id="wppr-review-<?php echo $review_object->get_ID(); ?>"
 	 class="wppr-review-container <?php echo( empty( $pros ) ? 'wppr-review-no-pros' : '' ); ?> <?php echo( empty( $cons ) ? 'wppr-review-no-cons' : '' ); ?>">
+	<?php //akram
+	$option_names = wp_list_pluck( $review_object->get_options(), 'name' );
+		$sliders      = array();
+		foreach ( $option_names as $k => $value ) {
+			$sliders[] =
+				'<div class="wppr-comment-form-meta">
+            <label for="wppr-slider-option-' . $k . '">' . $value . '</label>
+            <input type="text" id="wppr-slider-option-' . $k . '" class="meta_option_input" value="" name="wppr-slider-option-' . $k . '" readonly="readonly">
+            <div class="wppr-comment-meta-slider"></div>
+            <div class="cwpr_clearfix"></div>
+		</div>';
+		}
+		echo '<div id="wppr-slider-comment">' . implode( '', $sliders ) . '<div class="cwpr_clearfix"></div></div>';
+	//
+	// ?>
 	<section id="review-statistics" class="article-section">
 		<div class="review-wrap-up  cwpr_clearfix">
 			<div class="cwpr-review-top cwpr_clearfix">

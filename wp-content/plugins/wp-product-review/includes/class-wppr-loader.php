@@ -106,6 +106,7 @@ class WPPR_Loader {
 
 		return $hooks;
 
+
 	}
 
 	/**
@@ -114,7 +115,6 @@ class WPPR_Loader {
 	 * @since    3.0.0
 	 */
 	public function run() {
-
 		foreach ( $this->filters as $hook ) {
 			add_filter( $hook['hook'], array( $hook['component'], $hook['callback'] ), $hook['priority'], $hook['accepted_args'] );
 		}
