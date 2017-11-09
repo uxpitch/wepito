@@ -97,7 +97,8 @@ if ( !function_exists( 'aft_plgn_jquery_init' ) ) {
 		} else {
 			$is_rated = true;
 		}
-		
+
+
 		$adata = aft_plgn_fetch_rate_summary( $post->ID, ( is_page() ) ? 'true' : 'false' );
 		$rdata = aft_plgn_fetch_ratings( $post->ID, $_COOKIE[ RTP_COOKIE_NAME ], ( is_page() ) ? 'true' : 'false' );
 		

@@ -573,6 +573,8 @@ if ( !function_exists( 'rtp_delete_logs' ) ) {
 if ( !function_exists( 'rtp_is_rated' ) ) {
 	function rtp_is_rated( $post_id ) {
 		$rtp_options =  get_option( 'aft_options_array' );
+
+
 		switch( intval( $rtp_options[ 'rtp_logged_by' ] ) ) {
 			// Logged by IP
 			case 1:
@@ -600,7 +602,7 @@ if ( !function_exists( 'rtp_is_rated' ) ) {
 if ( !function_exists( 'rtp_logged_ip' ) ) {
 	function rtp_logged_ip( $post_id ) {
 		global $wpdb;
-		
+
 		$sql = "SELECT ip FROM %sfeedbacks WHERE post_id = %d AND ip = %d";
 		$sql = sprintf( $sql, $wpdb->prefix, $post_id, get_ipaddress() );
 		

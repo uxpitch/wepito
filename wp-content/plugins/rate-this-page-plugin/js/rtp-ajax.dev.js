@@ -114,7 +114,8 @@ jQuery(document).ready(function($){
 	function Init() {
 		$(".rtp-switch-form").css("display", "block");
 		$(".rtp-switch-report").css("display", "none");
-		
+
+
 		if ( rtpL10nAjax.is_rated ) {
 			$(".rtp-button").attr("disabled", "disabled").addClass("ui-state-disabled");
 			

@@ -202,7 +202,7 @@ if ( !function_exists( 'rtp_display_template' ) ) {
 								<div id="rtp-trustworthy-bar" ></div>
 
 								<div class="rtp-rating-count">%COUNT_TRUSTWORTHY%</div>
-								<div class="rtp-trustworthy-hint"></div>
+
 							</div>
 							<div class="feedback-ratings">
 								<div class="feedback-label">%LABEL_OBJECTIVE%</div>
@@ -210,7 +210,7 @@ if ( !function_exists( 'rtp_display_template' ) ) {
 								<div id="rtp-objective-bar"></div>
 
 								<div class="rtp-rating-count ">%COUNT_OBJECTIVE%</div>
-								<div class="rtp-objective-hint"></div>
+
 							</div>
 							<div class="feedback-ratings">
 								<div class="feedback-label">%LABEL_COMPLETE%</div>
@@ -218,7 +218,7 @@ if ( !function_exists( 'rtp_display_template' ) ) {
 								<div id="rtp-complete-bar" ></div>
 
 								<div class="rtp-rating-count ">%COUNT_COMPLETE%</div>
-								<div class="rtp-complete-hint"></div>
+
 							</div>
 							<div class="feedback-ratings">
 								<div class="feedback-label">%LABEL_WELLWRITTEN%</div>
@@ -226,7 +226,7 @@ if ( !function_exists( 'rtp_display_template' ) ) {
 								<div id="rtp-wellwritten-bar" "></div>
 
 								<div class="rtp-rating-count ">%COUNT_WELLWRITTEN%</div>
-								<div class="rtp-wellwritten-hint"></div>
+
 							</div>
 						</div>
 					<div style="clear:both;"></div>
@@ -258,6 +258,8 @@ if ( !function_exists( 'rtp_display_template' ) ) {
 								<div class="rtp-switch-form" id="feedback-trustworthy">
 									<input type="hidden" id="rtp-trustworthy-val" name="trustworthy-score" value="%VAL_TRUSTWORTHY%" />
 								</div>
+
+								<div class="rtp-trustworthy-hint"></div>
 
 							</div>
 							<div class="feedback-ratings">
@@ -306,6 +308,9 @@ if ( !function_exists( 'rtp_display_template' ) ) {
 			<div>نمایش اراء کاربران</div>
 
 			';
+
+
+//		return rtp_extend_template( $display, $postid, $data, $ave_data );
 
 		$data = rtp_fetch_as_log( '3', $postid );
 		$pluginName = "rate-this-page";
