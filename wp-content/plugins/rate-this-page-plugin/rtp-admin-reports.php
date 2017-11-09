@@ -48,11 +48,11 @@
 			$data = null;
 		} else {
 			$data = rtp_fetch_as_log( $_POST['rtp-search-by'], $_POST['search-by'] );
-			var_dump($_POST);
+
 		}
 	} else {
 		$data = rtp_fetch_as_log( $_POST['rtp-search-by'], $_POST['search-by'] );
-		var_dump($data);
+
 	}
 
 
