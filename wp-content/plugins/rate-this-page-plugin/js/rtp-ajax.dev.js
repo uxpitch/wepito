@@ -23,7 +23,7 @@ jQuery(document).ready(function($){
 		
 		submitRatings();
 	});
-	//loadResults();
+	loadResults();
 	$("#rtp-form").click(function() {
 		/*$(".rtp-switch-report").css("display", "none");	*/
 		$(".rtp-switch-form").css("display", "block");		

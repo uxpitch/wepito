@@ -189,8 +189,7 @@ if ( !function_exists( 'rtp_display_template' ) ) {
 			<div class="rtp-feedback">
 				<div class="rtp-feedback-panel">
 					<div class="rtp-feedback-buffer">
-						<div id="rtp-report" class="rtp-switch rtp-switch-form"> نتایج</div>
-						<div id="rtp-form" class="rtp-switch rtp-switch-report">رای دهی به این سایت</div>
+						<div id="rtp-report" class="rtp-switch"> نتایج</div>
 
 						<div class="feedback-title rtp-switch-form">%TITLE_LABEL%</div>
 						<div class="feedback-title rtp-switch-report" id="rtp-report-title">%TITLE_LABEL_REPORT%<br /><span>میانگین رای های داده شده تابحال</span></div>
@@ -199,51 +198,40 @@ if ( !function_exists( 'rtp_display_template' ) ) {
 						<div class="feedback-rating">									
 							<div class="feedback-ratings">
 								<div class="feedback-label">%LABEL_TRUSTWORTHY%</div>
-								<span class="rtp-average-report rtp-switch-report">%AVE_TRUSTWORTHY%</span>
-								<div id="rtp-trustworthy-bar" class="rtp-switch-report"></div>
-								<div class="rtp-switch-form" id="feedback-trustworthy">
-									<input type="hidden" id="rtp-trustworthy-val" name="trustworthy-score" value="%VAL_TRUSTWORTHY%" />
-								</div>
-								<div class="rtp-rating-count rtp-switch-report">%COUNT_TRUSTWORTHY%</div>
+								<span class="rtp-average-report ">%AVE_TRUSTWORTHY%</span>
+								<div id="rtp-trustworthy-bar" ></div>
+
+								<div class="rtp-rating-count">%COUNT_TRUSTWORTHY%</div>
 								<div class="rtp-trustworthy-hint"></div>
 							</div>
 							<div class="feedback-ratings">
 								<div class="feedback-label">%LABEL_OBJECTIVE%</div>
-								<span class="rtp-average-report rtp-switch-report">%AVE_OBJECTIVE%</span>
-								<div id="rtp-objective-bar" class="rtp-switch-report"></div>
-								<div class="rtp-switch-form" id="feedback-objective">
-									<input type="hidden" id="rtp-objective-val" name="objective-score" value="%VAL_OBJECTIVE%" />
-								</div>
-								<div class="rtp-rating-count rtp-switch-report">%COUNT_OBJECTIVE%</div>
+								<span class="rtp-average-report ">%AVE_OBJECTIVE%</span>
+								<div id="rtp-objective-bar"></div>
+
+								<div class="rtp-rating-count ">%COUNT_OBJECTIVE%</div>
 								<div class="rtp-objective-hint"></div>
 							</div>
 							<div class="feedback-ratings">
 								<div class="feedback-label">%LABEL_COMPLETE%</div>
-								<span class="rtp-average-report rtp-switch-report">%AVE_COMPLETE%</span>
-								<div id="rtp-complete-bar" class="rtp-switch-report"></div>
-								<div class="rtp-switch-form" id="feedback-complete">
-									<input type="hidden" id="rtp-complete-val" name="complete-score" value="%VAL_COMPLETE%" />
-								</div>
-								<div class="rtp-rating-count rtp-switch-report">%COUNT_COMPLETE%</div>
+								<span class="rtp-average-report ">%AVE_COMPLETE%</span>
+								<div id="rtp-complete-bar" ></div>
+
+								<div class="rtp-rating-count ">%COUNT_COMPLETE%</div>
 								<div class="rtp-complete-hint"></div>
 							</div>
 							<div class="feedback-ratings">
 								<div class="feedback-label">%LABEL_WELLWRITTEN%</div>
-								<span class="rtp-average-report rtp-switch-report">%AVE_WELLWRITTEN%</span>
-								<div id="rtp-wellwritten-bar" class="rtp-switch-report"></div>
-								<div class="rtp-switch-form" id="feedback-wellwritten">
-									<input type="hidden" id="rtp-wellwritten-val" name="wellwritten-score" value="%VAL_WELLWRITTEN%" />
-								</div>
-								<div class="rtp-rating-count rtp-switch-report">%COUNT_WELLWRITTEN%</div>
+								<span class="rtp-average-report ">%AVE_WELLWRITTEN%</span>
+								<div id="rtp-wellwritten-bar" "></div>
+
+								<div class="rtp-rating-count ">%COUNT_WELLWRITTEN%</div>
 								<div class="rtp-wellwritten-hint"></div>
 							</div>
 						</div>
 					<div style="clear:both;"></div>
 					<!--For Feedback Options-->
 
-
-					<button class="rtp-button rtp-switch-form" id="submit-feedback" type="submit" name="aft-submit-feedback" value="aft-submit-feedback"><span id="rtp-button-label">'. __( 'Submit Ratings' ) . '</span></button>
-					<div id="formstatus" class="rtp-switch-form"></div>
 					</div>
 				</div>
 				<input type="hidden" id="feedback-postid" name="feedback-postid" value="%POST_ID%" />
@@ -256,8 +244,7 @@ if ( !function_exists( 'rtp_display_template' ) ) {
 		 <div class="rtp-feedback">
 				<div class="rtp-feedback-panel">
 					<div class="rtp-feedback-buffer">
-						<div id="rtp-report" class="rtp-switch rtp-switch-form"> نتایج</div>
-						<div id="rtp-form" class="rtp-switch rtp-switch-report">رای دهی به این سایت</div>
+						<div id="rtp-form" class="rtp-switch ">رای دهی به این سایت</div>
 
 						<div class="feedback-title rtp-switch-form">%TITLE_LABEL%</div>
 						<div class="feedback-title rtp-switch-report" id="rtp-report-title">%TITLE_LABEL_REPORT%<br /><span>میانگین رای های داده شده تابحال</span></div>
@@ -468,7 +455,7 @@ if ( !function_exists( 'rtp_extend_template' ) ) {
 			$lbl_title = __('Rate this page');
 			$lbl_title_rpt = __('Page ratings');
 		} else {
-			$lbl_title = __('به این وبسایت رای دهید...');
+			$lbl_title = __('');
 			$lbl_title_rpt = __('Article ratings');
 		}
 		
