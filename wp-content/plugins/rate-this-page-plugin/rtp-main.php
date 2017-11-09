@@ -247,7 +247,7 @@ if ( !function_exists( 'rtp_display_template' ) ) {
 						<div id="rtp-form" class="rtp-switch ">رای دهی به این سایت</div>
 
 						<div class="feedback-title rtp-switch-form">%TITLE_LABEL%</div>
-						<div class="feedback-title  " id="rtp-report-title">%TITLE_LABEL_REPORT%<br /><span>میانگین رای های داده شده تابحال</span></div>
+
 						<div style="clear:both;"></div>
 						<!--Primary Feedback-->
 						<div class="feedback-rating">
