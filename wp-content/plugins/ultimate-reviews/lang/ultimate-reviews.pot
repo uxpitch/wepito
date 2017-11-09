@@ -1,0 +1,659 @@
+# Copyright (C) 2016 Reviews
+# This file is distributed under the same license as the Reviews package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Reviews 1.3.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ultimate-reviews\n"
+"POT-Creation-Date: 2016-10-31 18:25:03+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: Functions/EWD_URP_Add_Views_Column.php:4
+msgid "# of Views"
+msgstr ""
+
+#: Functions/EWD_URP_Add_Views_Column.php:5
+msgid "Product"
+msgstr ""
+
+#: Functions/EWD_URP_Add_Views_Column.php:6
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:159
+#: Shortcodes/SelectReview.php:93 Shortcodes/SubmitReview.php:46
+#: html/OptionsPage.php:888
+msgid "Score"
+msgstr ""
+
+#: Functions/EWD_URP_Add_Views_Column.php:7
+msgid "Post ID"
+msgstr ""
+
+#: Functions/EWD_URP_Add_Views_Column.php:137
+msgid "Show All Products"
+msgstr ""
+
+#: Functions/EWD_URP_Captcha.php:11
+msgid "Image Number: "
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (Reviews 1.3.9)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: Functions/EWD_URP_Replace_WooCommerce_Reviews.php:21
+#: Functions/EWD_URP_Replace_WooCommerce_Reviews.php:46
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:5
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:7 Main.php:94
+msgid "Reviews"
+msgstr ""
+
+#: Functions/EWD_URP_Replace_WooCommerce_Reviews.php:32
+msgid "Leave a review"
+msgstr ""
+
+#: Functions/EWD_URP_Replace_WooCommerce_Reviews.php:67 html/WC_Rating.php:35
+msgid "Rated %s out of %s"
+msgstr ""
+
+#: Functions/EWD_URP_Replace_WooCommerce_Reviews.php:68 html/WC_Rating.php:37
+msgid "out of %s"
+msgstr ""
+
+#: Functions/EWD_URP_Submit_Review.php:46
+msgid "The number entered in the captcha field was not correct."
+msgstr ""
+
+#: Functions/EWD_URP_Submit_Review.php:56
+msgid "Review was not created succesfully."
+msgstr ""
+
+#: Functions/EWD_URP_Submit_Review.php:134
+msgid "Email Confirmation for Product Review"
+msgstr ""
+
+#: Functions/EWD_URP_Submit_Review.php:136
+msgid "Hello,"
+msgstr ""
+
+#: Functions/EWD_URP_Submit_Review.php:137
+msgid ""
+"Please confirm your email address for the product review you submitted "
+"titled "
+msgstr ""
+
+#: Functions/EWD_URP_Submit_Review.php:138
+msgid "by going to the following link:"
+msgstr ""
+
+#: Functions/EWD_URP_Submit_Review.php:139
+msgid "Confirm your email address"
+msgstr ""
+
+#: Functions/EWD_URP_Submit_Review.php:140
+msgid "Thank you for the review, and have a great day,"
+msgstr ""
+
+#: Functions/EWD_URP_Submit_Review.php:157
+msgid "Thank you for confirming your email address!"
+msgstr ""
+
+#: Functions/EWD_URP_Submit_Review.php:167
+msgid "New Review Received"
+msgstr ""
+
+#: Functions/EWD_URP_Submit_Review.php:169
+msgid "Hello Admin,"
+msgstr ""
+
+#: Functions/EWD_URP_Submit_Review.php:170
+msgid "You've received a new review for the product"
+msgstr ""
+
+#: Functions/EWD_URP_Submit_Review.php:171
+msgid "The review reads:<br>"
+msgstr ""
+
+#: Functions/EWD_URP_Submit_Review.php:173
+msgid "You can view the entire review by going to the following link:<br>"
+msgstr ""
+
+#: Functions/EWD_URP_Submit_Review.php:174
+msgid "See the review"
+msgstr ""
+
+#: Functions/EWD_URP_Submit_Review.php:175
+msgid "Have a great day,"
+msgstr ""
+
+#: Functions/EWD_URP_Submit_Review.php:176
+msgid "Ultimate Reviews Team"
+msgstr ""
+
+#: Functions/EWD_URP_Submit_Review.php:201
+msgid "File must be .jpg or .png"
+msgstr ""
+
+#: Functions/EWD_URP_Upgrade_Box.php:7 html/DashboardPage.php:12
+msgid "Full Version"
+msgstr ""
+
+#: Functions/EWD_URP_Upgrade_Box.php:9 html/DashboardPage.php:14
+msgid "Upgrade to the full version "
+msgstr ""
+
+#: Functions/EWD_URP_Upgrade_Box.php:9 html/DashboardPage.php:14
+msgid ""
+"to take advantage of all the available features of Ultimate Reviews for "
+"Wordpress!"
+msgstr ""
+
+#: Functions/EWD_URP_Upgrade_Box.php:10 html/DashboardPage.php:15
+msgid "What you get by upgrading:"
+msgstr ""
+
+#: Functions/EWD_URP_Upgrade_Box.php:20 html/DashboardPage.php:27
+msgid "Product Key"
+msgstr ""
+
+#: Functions/EWD_URP_Upgrade_Box.php:23 html/DashboardPage.php:30
+msgid "Upgrade"
+msgstr ""
+
+#: Functions/EWD_URP_Widgets.php:10
+msgid "Recent Reviews"
+msgstr ""
+
+#: Functions/EWD_URP_Widgets.php:11
+msgid "Insert a number of recent reviews"
+msgstr ""
+
+#: Functions/EWD_URP_Widgets.php:40 Functions/EWD_URP_Widgets.php:187
+msgid "3"
+msgstr ""
+
+#: Functions/EWD_URP_Widgets.php:45 Functions/EWD_URP_Widgets.php:114
+#: Functions/EWD_URP_Widgets.php:192
+msgid "Text Before:"
+msgstr ""
+
+#: Functions/EWD_URP_Widgets.php:49 Functions/EWD_URP_Widgets.php:196
+msgid "Number of Reviews:"
+msgstr ""
+
+#: Functions/EWD_URP_Widgets.php:53 Functions/EWD_URP_Widgets.php:122
+#: Functions/EWD_URP_Widgets.php:200
+msgid "Text After:"
+msgstr ""
+
+#: Functions/EWD_URP_Widgets.php:83
+msgid "Selected Reviews"
+msgstr ""
+
+#: Functions/EWD_URP_Widgets.php:84
+msgid "Insert a number of selected reviews"
+msgstr ""
+
+#: Functions/EWD_URP_Widgets.php:118
+msgid "IDs of Posts to Display"
+msgstr ""
+
+#: Functions/EWD_URP_Widgets.php:152
+msgid "Popular Reviews"
+msgstr ""
+
+#: Functions/EWD_URP_Widgets.php:153
+msgid "Insert a number of popular reviews"
+msgstr ""
+
+#: Functions/EWD_URP_WooCommerce_Review_Import.php:79
+msgid "WooCommerce reviews have been succesfully imported."
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:6
+#: Shortcodes/SubmitReview.php:44 html/OptionsPage.php:939
+msgid "Review"
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:8 Main.php:96
+msgid "Add New"
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:9
+msgid "Add New Review"
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:10
+msgid "Edit Review"
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:11
+msgid "New Review"
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:12
+msgid "View Review"
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:13
+#: Shortcodes/Display_URP_Search.php:18
+msgid "Search Reviews"
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:14
+msgid "Nothing found"
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:15
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:42
+msgid "Use the following shortcode to add this review to a page:"
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:52
+msgid "Review Details"
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:82
+msgid "Review Weight:"
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:93
+msgid "Review Karma:"
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:104
+msgid "Reviewer's Email:"
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:115
+msgid "Email Confirmed:"
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:128
+msgid "Product Name:"
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:137
+msgid "Post Author:"
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:147
+#: Shortcodes/SubmitReview.php:42 html/OptionsPage.php:933
+msgid "Overall Score"
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:167
+#: Shortcodes/SelectReview.php:95 Shortcodes/SubmitReview.php:48
+#: html/OptionsPage.php:894
+msgid "Explanation"
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:277
+#: Shortcodes/SelectReview.php:87
+msgid "Posted "
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:279
+#: Shortcodes/SelectReview.php:89
+msgid "by "
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:281
+#: Shortcodes/SelectReview.php:91
+msgid "on "
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:283
+msgid "Score "
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:285
+msgid "Explanation "
+msgstr ""
+
+#: Functions/Register_EWD_URP_Posts_Taxonomies.php:303
+#: Shortcodes/SelectReview.php:147
+msgid "Review for "
+msgstr ""
+
+#: Functions/Update_EWD_URP_Admin_Databases.php:211
+msgid "Options have been successfully updated."
+msgstr ""
+
+#: Functions/Update_EWD_URP_Content.php:17
+msgid "The form has not worked correctly. Please contact the plugin developer."
+msgstr ""
+
+#: Main.php:89 html/MainScreen.php:3
+msgid "Dashboard"
+msgstr ""
+
+#: Main.php:91
+msgid "Approved Reviews"
+msgstr ""
+
+#: Main.php:92
+msgid "Awaiting Approval"
+msgstr ""
+
+#: Main.php:97
+msgid "Import"
+msgstr ""
+
+#: Main.php:98 html/MainScreen.php:7
+msgid "Options"
+msgstr ""
+
+#: Main.php:249
+msgid "Next"
+msgstr ""
+
+#: Main.php:250
+msgid "Close"
+msgstr ""
+
+#: Shortcodes/DisplayReviews.php:25
+msgid " reviews "
+msgstr ""
+
+#: Shortcodes/DisplayReviews.php:170 Shortcodes/DisplayReviews.php:186
+msgid "Reviews for"
+msgstr ""
+
+#: Shortcodes/DisplayReviews.php:223
+msgid " of "
+msgstr ""
+
+#: Shortcodes/DisplayReviews.php:242
+msgid "Filter"
+msgstr ""
+
+#: Shortcodes/DisplayReviews.php:250
+msgid "Product name:"
+msgstr ""
+
+#: Shortcodes/DisplayReviews.php:252
+msgid "All"
+msgstr ""
+
+#: Shortcodes/DisplayReviews.php:261
+msgid "Review score:"
+msgstr ""
+
+#: Shortcodes/DisplayReviews.php:286
+msgid "No matching reviews found."
+msgstr ""
+
+#: Shortcodes/DisplayReviews.php:320
+msgid "Summary for"
+msgstr ""
+
+#: Shortcodes/DisplayReviews.php:353
+msgid "rating"
+msgstr ""
+
+#: Shortcodes/DisplayReviews.php:354
+msgid "ratings"
+msgstr ""
+
+#: Shortcodes/DisplayReviews.php:355
+msgid "Average Score"
+msgstr ""
+
+#: Shortcodes/Display_Summary_Statistics.php:30
+msgid "Back to Summary"
+msgstr ""
+
+#: Shortcodes/SelectReview.php:259
+msgid "Read More"
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:32 html/OptionsPage.php:903
+msgid "Product Name"
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:34 html/OptionsPage.php:909
+msgid "Review Author"
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:36
+msgid "What name should be displayed with your review?"
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:38 html/OptionsPage.php:921
+msgid "Review Title"
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:40
+msgid "What title should be displayed with your review?"
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:50 Shortcodes/SubmitReview.php:64
+msgid "Send Review"
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:60
+msgid "Thank you for submitting a review."
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:61
+msgid "Your review will be visible once it's approved by an administrator."
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:62
+msgid "Submit a Review"
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:63
+msgid "Please fill out the form below to submit a review."
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:95
+msgid "Please log in to leave a review"
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:97
+msgid "Login Options:"
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:156
+msgid "Review of "
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:222
+msgid "Reviewer's Email Address"
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:228
+msgid ""
+"Please confirm your e-mail to verify your identity. It will not be displayed."
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:248
+msgid "Review Image"
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:251
+msgid "The image that should be associated with your review"
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:275 Shortcodes/SubmitReview.php:325
+msgid "out of"
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:282 Shortcodes/SubmitReview.php:291
+#: Shortcodes/SubmitReview.php:335
+msgid "Characters remaining:"
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:349
+msgid "Click to add your own review!"
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:383 Shortcodes/SubmitReview.php:393
+msgid "Logout"
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:399
+msgid "You have been successfully logged out via Facebook. "
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:401 Shortcodes/SubmitReview.php:409
+msgid "Please reload the page"
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:403 Shortcodes/SubmitReview.php:411
+msgid "if you'd like to log in again"
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:407
+msgid "You have been successfully logged out via Twitter. "
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:458
+msgid "WordPress Login"
+msgstr ""
+
+#: Shortcodes/SubmitReview.php:463
+msgid "Login"
+msgstr ""
+
+#: html/AdminHeader.php:2
+msgid "Ultimate Reviews"
+msgstr ""
+
+#: html/DashboardPage.php:42
+msgid "Thank You!"
+msgstr ""
+
+#: html/DashboardPage.php:44
+msgid "Thanks for installing the Ultimate Reviews plugin."
+msgstr ""
+
+#: html/DashboardPage.php:44
+msgid "Subscribe to our YouTube channel "
+msgstr ""
+
+#: html/DashboardPage.php:44
+msgid "for tutorial videos on this and our other plugins!"
+msgstr ""
+
+#: html/DashboardPage.php:45
+msgid "Thanks for upgrading to version 1.3.3!"
+msgstr ""
+
+#: html/DashboardPage.php:45
+msgid "Please rate our plugin"
+msgstr ""
+
+#: html/DashboardPage.php:45
+msgid "if you find Ultimate Reviews useful!"
+msgstr ""
+
+#: html/DashboardPage.php:157
+msgid "Title"
+msgstr ""
+
+#: html/DashboardPage.php:158
+msgid "Views"
+msgstr ""
+
+#: html/DashboardPage.php:159
+msgid "Review Rating"
+msgstr ""
+
+#: html/DashboardPage.php:173
+msgid ""
+"No reviews to display yet. Create a review and then view it for it to be "
+"displayed here."
+msgstr ""
+
+#: html/DashboardPage.php:196
+msgid "Recent Changes"
+msgstr ""
+
+#: html/DashboardPage.php:206
+msgid "Goes great with:"
+msgstr ""
+
+#: html/MainScreen.php:4
+msgid "Orders"
+msgstr ""
+
+#: html/MainScreen.php:5
+msgid "Statuses"
+msgstr ""
+
+#: html/MainScreen.php:6
+msgid "Emails"
+msgstr ""
+
+#: html/OptionsPage.php:870
+msgid "Posted"
+msgstr ""
+
+#: html/OptionsPage.php:876
+msgid "By"
+msgstr ""
+
+#: html/OptionsPage.php:882
+msgid "On"
+msgstr ""
+
+#: html/OptionsPage.php:915
+msgid "Author 'Comment'"
+msgstr ""
+
+#: html/OptionsPage.php:927
+msgid "Title 'Comment'"
+msgstr ""
+
+#: html/OptionsPage.php:945
+msgid "Category 'Score'"
+msgstr ""
+
+#: html/OptionsPage.php:951
+msgid "Category 'Explanation'"
+msgstr ""
+
+#: html/OptionsPage.php:957
+msgid "'Send Review' Button"
+msgstr ""
+
+#: html/OptionsPage.php:966
+msgid "Submit Success Message"
+msgstr ""
+
+#: html/OptionsPage.php:972
+msgid "Submit Draft Add On Message"
+msgstr ""
+
+#: html/WC_Rating.php:38
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: html/WC_Rating.php:41
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#. #-#-#-#-#  plugin.pot (Reviews 1.3.9)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  plugin.pot (Reviews 1.3.9)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.EtoileWebDesign.com/plugins/ultimate-reviews/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Accept and display reviews, style them for your site and much more!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Etoile Web Design"
+msgstr ""

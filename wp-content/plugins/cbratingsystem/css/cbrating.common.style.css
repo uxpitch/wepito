@@ -1,0 +1,58 @@
+.chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+    height: auto !important;
+}
+
+div.checker {
+    margin-right: 0px;
+}
+
+.comment_status_inline {
+    display: inline-block;
+}
+
+.codeboxr_rating_credit {
+    font-size: xx-small !important;
+    float: right;
+}
+
+table.cbrp-top-rated-wpanel tr td {
+    padding: 4px;
+}
+
+.cbrap-top-user-rating li {
+    display: inline !important;
+}
+
+.cbrp-top-rated-userlist {
+    list-style: none;
+}
+
+.cbratingreview_listing{
+    padding: 0 10px;
+}
+.cbratingreview_listing img, .cbratingreview_listing_widget img{
+    vertical-align: middle;
+}
+
+.cbxrating_latestreview_wrap{
+    font-size: 14px;
+}
+.cbxrating_latestreview_single{
+    margin-bottom: 20px;
+
+}
+.cbxrating_latestreview_avg{
+    margin-bottom: 5px;
+}
+.cbxrating_latestreview_comment{
+    margin-bottom: 5px;
+    background: #F7F7F7;
+    padding: 5px;
+}
+
+.cbxrating_latestreview_criteria{
+    margin-bottom: 3px;
+}
+.cbxrating_latestreview_post{
+    margin-bottom: 10px;
+}

@@ -422,11 +422,13 @@
 	;
 }
 
-#wppr-slider-comment .wppr-comment-form-meta {
-	float: right;
+#wppr-slider-comment .wppr-comment-form-meta {/*akram*/
+	/* float: right; */
 	position: relative;
-	width: 100%;
+	/* width: 100%; */
 	margin-bottom: 12px;
+	margin-left: 20px;
+	display: inline-block;
 }
 
 #wppr-slider-comment .wppr-comment-form-meta label {
@@ -544,13 +546,9 @@
 
 #wppr-slider-comment {
 	display: block;
-	width: 230px;
+	/*width: 230px; akram*/
 	margin-top: 10px;
 	margin-bottom: 10px;
-}
-
-.wppr-comment-form-meta {
-	width: 100% !important;
 }
 
 .cwpr_clearfix {
