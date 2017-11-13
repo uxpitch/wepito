@@ -13,6 +13,8 @@
  *
  * @since 2.1.0
  */
+
+
 define( 'DOING_AJAX', true );
 if ( ! defined( 'WP_ADMIN' ) ) {
 	define( 'WP_ADMIN', true );
@@ -88,6 +90,8 @@ if ( is_user_logged_in() ) {
 	 *
 	 * @since 2.1.0
 	 */
+
+	var_dump('wp_ajax_' . $_REQUEST['action']);
 	do_action( 'wp_ajax_' . $_REQUEST['action'] );
 } else {
 	/**
@@ -98,6 +102,8 @@ if ( is_user_logged_in() ) {
 	 *
 	 * @since 2.8.0
 	 */
+
+
 	do_action( 'wp_ajax_nopriv_' . $_REQUEST['action'] );
 }
 // Default status

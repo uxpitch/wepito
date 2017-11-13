@@ -60,9 +60,10 @@ jQuery(document).ready(function($){
 				$("#rtp-loading").fadeIn('fast');
 				$(".rtp-button").attr("disabled", "disabled").addClass("ui-state-disabled");
 			},
-			success: function(){
+			success: function(data,d){
+				console.log(data,d);
 				$('#formstatus').html("<div id='rtp-loading'></div>");
-				$('#rtp-loading').html("<span style='position: relative; top: 3px;'>" + rtpL10nAjax.success_msg + "</span>")
+				$('#rtp-loading').html("<span style='position: relative; top: 3px;'>" +data+ rtpL10nAjax.success_msg + "</span>")
 					.fadeIn(500)
 					.delay(10000)
 					.fadeOut(500);

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Saving process using ajax method
  *
@@ -9,6 +10,8 @@ if ( !function_exists( 'rtp_process_save' ) ) {
 		global $user_identity;
 
 		$rtp_options = get_option( 'aft_options_array' );
+//		var_dump('$user_identity=>',$user_identity);exit;
+
 
 		$user_type = ( !empty($user_identity) ) ? 1 : 0;
 

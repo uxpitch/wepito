@@ -51,7 +51,6 @@ function rtp_fetch_ratings_byip( $post_id, $ip_address, $is_page ) {
 if ( !function_exists( 'aft_plgn_save_ratings' ) ) {
 	function aft_plgn_save_ratings( $isnew, $aft_data, $post_id = null, $session_key = null ) {
 		global $wpdb;
-		
 		$pid = $aft_data['post_id'];
 		$is_page = $aft_data['is_page'];
 		

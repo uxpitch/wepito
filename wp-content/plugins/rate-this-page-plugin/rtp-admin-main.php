@@ -1,6 +1,6 @@
 <?php
 	global $wpdb, $title, $aft_options_array, $aft_options_by_array;
-	
+
 	$theme_lists = get_option('aft_themes_array');
 	$options = $aft_options_array;
 	$options_by = $aft_options_by_array;
